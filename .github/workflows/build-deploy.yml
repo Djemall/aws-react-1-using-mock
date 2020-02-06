@@ -28,7 +28,7 @@ jobs:
           name: application
       - uses: actions/setup-python@v1
         with:
-          python-version:'3.x'
+          python-version: '3.x'
       - run: pip install awscli
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
